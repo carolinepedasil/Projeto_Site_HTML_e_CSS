@@ -1,0 +1,242 @@
+    body{
+        background-color: white;
+        font-family: Arial, Helvetica, Copperplate, sans-serif;
+        font-size: medium;
+        text-align: center;
+        padding: 0px;
+        margin:0%;
+        color: black;
+    }
+    
+    nav{
+        margin:0;
+        padding:0;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .corpo {
+        width: 100%;
+        margin: 0%;
+        padding: 0px;
+        text-align: center;
+    }
+    #menu {
+        list-style-type: none;
+        padding: 0px;
+        margin:0;
+        background-color: white;
+    }
+    header{
+        background-color: white;
+        min-height: 0px;
+        padding-top: 0px;
+    }
+    header > h1{
+        background-color: rgb(245, 235, 235);
+        font-family: sans-serif;
+        font-size: 3em;
+        margin-bottom: 20px;     
+    }
+    header > p{
+        font-family: sans-serif;
+        font-size: 1.5em;
+        color: white;
+        max-width: 500px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin: auto;
+    } 
+    #menu li{
+        display: inline;
+    }
+    #menu li a{
+        color: black;
+        padding: 40px;
+        display: inline-block;
+        text-decoration: none;
+        transition: background .5s;
+    }
+    #menu li a:hover {
+        background-color: yellow;    
+    }
+    #menu li:last-child a {
+        display: right;
+        background-color: cornflowerblue;  
+        padding: 40px; 
+    }
+    .duvidas {
+        
+    }
+
+/*PRIMEIRA SEÇÃO*/
+
+    .primeira {
+        margin:0%;
+        padding:0%;
+        background-color:white;
+    }
+
+    .tituloprimeirasecao {
+        font-size: 50px;
+        margin:0%;
+        padding:40px;
+    }
+
+    .parafrafoprimeiro {
+        
+    }
+
+    .botao1 {
+        
+    }
+
+/*SEGUNDA SEÇÃO*/
+
+    .segunda{
+        background-color: gainsboro;
+
+    }
+    .titulosegundasecao {
+        font-size: 50px;
+    }
+
+    .paragrafosegunda {
+        
+    }
+
+    .texto{
+        width:45%;
+        vertical-align: top;
+        display: inline-block;
+    }
+
+    .imagem{
+        width:650;
+        height:350;
+        display: inline-block;
+        font-size: 0;
+    }
+
+/*TERCEIRA SEÇÃO*/
+
+    .terceira {
+        background-color: gainsboro;
+        
+    }
+
+    .tituloterceirasecao {
+        font-size: 50px;
+    }
+
+    .paragrafoterceira {
+        
+    }
+
+    .tabela {
+        
+    }
+
+    .botaotereira {
+        
+    }
+
+    table, tr{
+        width: 100%;
+        text-align: center;
+    }
+
+/*QUARTA SEÇÃO*/
+
+    .quarta {
+        
+    }
+
+    .tituloquartasecao {
+        font-size: 50px;
+    }
+
+    .paragrafoum {
+        
+    }
+
+    .paragrafodois {
+        
+    }
+
+    .paragrafotres {
+        
+    }
+
+    .paragrafoquarto {
+        
+    }
+
+    .paragrafoquinto {
+        
+    }
+    
+
+/*QUINTA SEÇÃO*/
+
+    .quinta{
+        margin: 0;
+        padding: 0;
+        color: white;
+        background-image: url(../imagens/mato.png);
+      -webkit-backgrround-size: cover; 
+       background-size: cover; 
+        font-family: Tahoma, sans-serif;
+    }
+    
+    .form-area { /* fundo transparente */
+       /* position: absolute;*/
+        top: 50%;
+        left: 50%;
+        width: 330px;
+        height: 550px;
+        margin:auto;
+       /* transform: translate(-50%, -50%);*/
+        box-sizing: border-box;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 50px;
+    }
+    
+    .form-area p {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    
+    .form-area input, select {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
+    .form-area input[type="text"], input[type="password"] {
+        border: none;
+        border-bottom: 1px solid #ffffff;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color: #ffffff;
+        display: 16px;
+    }
+    
+    .form-area input[type="submit"] {
+        border: none;
+        height: 40px;
+        outline: none;
+        color: #ffffff;
+        font-size: 15px;
+        background-color: tomato;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
+    .rodape {
+        
+    }
