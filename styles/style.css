@@ -1,16 +1,16 @@
-    body{
+    body {
         background-color: white;
         font-family: Arial, Helvetica, Copperplate, sans-serif;
         font-size: medium;
         text-align: center;
         padding: 0px;
-        margin:0%;
+        margin: 0%;
         color: black;
     }
-    
-    nav{
-        margin:0;
-        padding:0;
+
+    nav {
+        margin: 0;
+        padding: 0;
     }
 
     .titulo {
@@ -23,24 +23,28 @@
         padding: 0px;
         text-align: center;
     }
+
     #menu {
         list-style-type: none;
         padding: 0px;
-        margin:0;
+        margin: 0;
         background-color: white;
     }
-    header{
+
+    header {
         background-color: white;
         min-height: 0px;
         padding-top: 0px;
     }
-    header > h1{
+
+    header>h1 {
         background-color: rgb(245, 235, 235);
         font-family: sans-serif;
         font-size: 3em;
-        margin-bottom: 20px;     
+        margin-bottom: 20px;
     }
-    header > p{
+
+    header>p {
         font-family: sans-serif;
         font-size: 1.5em;
         color: white;
@@ -48,110 +52,86 @@
         padding-right: 10px;
         padding-left: 10px;
         margin: auto;
-    } 
-    #menu li{
+    }
+
+    #menu li {
         display: inline;
     }
-    #menu li a{
+
+    #menu li a {
         color: black;
         padding: 40px;
         display: inline-block;
         text-decoration: none;
         transition: background .5s;
     }
+
     #menu li a:hover {
-        background-color: yellow;    
+        background-color: yellow;
     }
+
     #menu li:last-child a {
         display: right;
-        background-color: cornflowerblue;  
-        padding: 40px; 
-    }
-    .duvidas {
-        
+        background-color: rgb(42, 208, 214);
+        padding: 40px;
     }
 
-/*PRIMEIRA SEÇÃO*/
+/* PRIMEIRA SEÇÃO */
 
     .primeira {
-        margin:0%;
-        padding:0%;
-        background-color:white;
+        margin: 0%;
+        padding: 0%;
+        background-color: rgb(193, 210, 211);
     }
 
     .tituloprimeirasecao {
         font-size: 50px;
-        margin:0%;
-        padding:40px;
+        margin: 0%;
+        padding: 40px;
     }
 
-    .parafrafoprimeiro {
-        
-    }
+/* SEGUNDA SEÇÃO */
 
-    .botao1 {
-        
-    }
-
-/*SEGUNDA SEÇÃO*/
-
-    .segunda{
+    .segunda {
         background-color: gainsboro;
-
     }
+
     .titulosegundasecao {
         font-size: 50px;
     }
 
-    .paragrafosegunda {
-        
-    }
-
-    .texto{
-        width:45%;
+    .texto {
+        width: 45%;
         vertical-align: top;
         display: inline-block;
     }
 
-    .imagem{
-        width:650;
-        height:350;
+    .imagem {
+        width: 650;
+        height: 350;
         display: inline-block;
         font-size: 0;
     }
 
-/*TERCEIRA SEÇÃO*/
+/* TERCEIRA SEÇÃO */
 
     .terceira {
         background-color: gainsboro;
-        
     }
 
     .tituloterceirasecao {
         font-size: 50px;
     }
 
-    .paragrafoterceira {
-        
-    }
-
-    .tabela {
-        
-    }
-
-    .botaotereira {
-        
-    }
-
-    table, tr{
+    table, tr {
         width: 100%;
         text-align: center;
     }
 
-/*QUARTA SEÇÃO*/
+/* QUARTA SEÇÃO */
 
     .quarta {
-        
+        background-color: rgba(60, 196, 196, 0.959);
     }
 
     .tituloquartasecao {
@@ -159,63 +139,67 @@
     }
 
     .paragrafoum {
-        
+        font-size: 1.5em;
+        color: black;
+        text-align: left;
+        margin: auto;
+        padding: 40pix;
+        display: inline;
     }
 
     .paragrafodois {
-        
+        font-size: 1.5em;
+        color: black;
+        text-align: right;
+        display: inline;
     }
 
-    .paragrafotres {
-        
-    }
-
-    .paragrafoquarto {
-        
-    }
-
-    .paragrafoquinto {
-        
-    }
+    .column {
+        float: left;
+        width: 50%;
+      }
     
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
 
-/*QUINTA SEÇÃO*/
+/* QUINTA SEÇÃO */
 
-    .quinta{
+    .quinta {
         margin: 0;
         padding: 0;
         color: white;
         background-image: url(../imagens/mato.png);
-      -webkit-backgrround-size: cover; 
-       background-size: cover; 
+        -webkit-backgrround-size: cover;
+        background-size: cover;
         font-family: Tahoma, sans-serif;
     }
-    
-    .form-area { /* fundo transparente */
-       /* position: absolute;*/
+
+    .form-area {
         top: 50%;
         left: 50%;
         width: 330px;
         height: 550px;
-        margin:auto;
-       /* transform: translate(-50%, -50%);*/
+        margin: auto;
         box-sizing: border-box;
         background: rgba(0, 0, 0, 0.8);
         padding: 50px;
     }
-    
+
     .form-area p {
         margin: 0;
         padding: 0;
         font-weight: bold;
         color: #ffffff;
     }
-    
+
     .form-area input, select {
         margin-bottom: 20px;
         width: 100%;
     }
-    
+
     .form-area input[type="text"], input[type="password"] {
         border: none;
         border-bottom: 1px solid #ffffff;
@@ -225,7 +209,7 @@
         color: #ffffff;
         display: 16px;
     }
-    
+
     .form-area input[type="submit"] {
         border: none;
         height: 40px;
@@ -237,6 +221,19 @@
         border-radius: 20px;
     }
 
-    .rodape {
-        
+/* RODAPÉ */
+
+    .footer {
+        height: 80px;
+        background-color: rgb(124, 212, 193);
+        position: relative;
+    }
+
+    .footer h1 {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: unset;
+        text-align: center;
+        margin-top: 20px;
     }
